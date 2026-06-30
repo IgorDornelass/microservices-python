@@ -10,7 +10,7 @@ Projeto de arquitetura de microserviços usando Python, Docker e APIs REST.
 ## Tecnologias
 
 - Python
-- Flask / FastAPI (dependendo do seu serviço)
+- Flask
 - Docker
 - Docker Compose
 
