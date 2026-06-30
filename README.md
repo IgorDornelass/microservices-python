@@ -1,20 +1,45 @@
-# Microservices Python 🚀
 
-Projeto de arquitetura de microserviços usando Python, Docker e APIs REST.
+---
 
-## Arquitetura
+## ⚙️ Serviços
 
-- product-service → gerenciamento de produtos
-- order-service → gerenciamento de pedidos
+### 🛒 Product Service
+Responsável pelo gerenciamento de produtos.
 
-## Tecnologias
+Funcionalidades:
+- Criar produto
+- Listar produtos
+- Buscar produto por ID
 
-- Python
-- Flask
-- Docker
+---
+
+### 📦 Order Service
+Responsável pelo gerenciamento de pedidos.
+
+Funcionalidades:
+- Criar pedidos
+- Listar pedidos
+- Integração com Product Service
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 🐍
+- Flask 
+- Docker 🐳
 - Docker Compose
+- REST APIs
 
-## Como rodar
+---
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+- Docker instalado
+- Docker Compose instalado
+
+### Rodando os serviços
 
 ```bash
 docker-compose up --build
