@@ -1,16 +1,20 @@
-# Python Microservices
+# Microservices Python 🚀
 
-Projeto de microserviços desenvolvido com Flask, Docker e Docker Compose.
+Projeto de arquitetura de microserviços usando Python, Docker e APIs REST.
+
+## Arquitetura
+
+- product-service → gerenciamento de produtos
+- order-service → gerenciamento de pedidos
 
 ## Tecnologias
 
 - Python
-- Flask
+- Flask / FastAPI (dependendo do seu serviço)
 - Docker
 - Docker Compose
-- Requests
 
-## Serviços
+## Como rodar
 
-- Product Service
-- Order Service
+```bash
+docker-compose up --build
